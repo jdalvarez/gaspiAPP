@@ -64,6 +64,8 @@ class ContainerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentContainerBinding.inflate(layoutInflater)
+
+
         return binding.root
 
 
@@ -72,6 +74,7 @@ class ContainerFragment : Fragment() {
     override fun onResume() {
         super.onResume()
         getResponse()
+
     }
 }
 
